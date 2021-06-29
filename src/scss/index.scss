@@ -1,6 +1,36 @@
-$red: tomato;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import "variables";
+@import "mixins";
 
-body {
-  background-color: green;
+@import "header";
+@import "toolbar";
+@import "formula";
+@import "table";
+@import "dashboard";
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
 }
-
+ul {
+  list-style: none; 
+}
+a {
+  text-decoration: none;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+}
+.wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.excel {
+  position: relative;
+  color: #888;
+  height: 100vh;
+  max-width: 100%;
+}
